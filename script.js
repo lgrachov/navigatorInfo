@@ -1,4 +1,4 @@
-const doc = document.getElementsByTagName("body")[0]
+const doc = document.getElementById("page")
 const names = ["User agent", "Preferred language", "App codename", "App name", "App version", "Product name", "Cookies enabled (or supported)", "Platform (operating system)", "Max touch points"]
 const keys = ["userAgent", "language", "appCodeName", "appName", "appVersion", "product", "cookieEnabled", "platform", "maxTouchPoints"]
 
